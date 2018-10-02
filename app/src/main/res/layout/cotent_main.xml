@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <devlight.io.library.ntb.NavigationTabBar
+        android:id="@+id/ntb"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_height="60dp"
+        app:ntb_animation_duration="400"
+        app:ntb_preview_colors="@array/xxx"
+        app:ntb_active_color="#fff"
+        app:ntb_inactive_color="@color/ntb_inactive_color"
+        app:ntb_scaled="true"
+        app:ntb_tinted="true"
+        app:ntb_swiped="true"
+        app:ntb_icon_size_fraction="0.4"
+        app:ntb_bg_color="@color/ntb_bg_color" />
+
+</FrameLayout>
